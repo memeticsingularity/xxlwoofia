@@ -1,0 +1,29 @@
+# 01 .idea
+# 忽略IntelliJ IDEA相关的配置文件和目录
+# Ignore IntelliJ IDEA related configuration files and directories
+.idea
+
+# 02 **/tmp/*
+# 忽略所有路径下的tmp目录及其所有内容
+# Ignore tmp directories and all their contents under all paths
+**/tmp/*
+
+# 03 !**/tmp/.gitkeep
+# 但不忽略.gitkeep文件，即使它在tmp目录中
+# But do not ignore .gitkeep files, even if they are in tmp directories
+!**/tmp/.gitkeep
+
+# 04 **/structure/*
+# 忽略所有路径下的structure目录及其所有内容
+# Ignore structure directories and all their contents under all paths
+structure
+
+# 05 !**/structure/.gitkeep
+# 但不忽略.gitkeep文件，即使它在structure目录中
+# But do not ignore .gitkeep files, even if they are in structure directories
+!structure/.gitkeep
+
+# 06 **/*prompt*
+# 忽略任何深度下，文件名包含prompt的文件
+# Ignore files with names containing prompt at any depth
+**/prompt*
