@@ -7,3 +7,8 @@
 *.gif filter=lfs diff=lfs merge=lfs -text
 *.bmp filter=lfs diff=lfs merge=lfs -text
 *.tiff filter=lfs diff=lfs merge=lfs -text
+
+# 处理视频文件
+*.mp4 binary -diff -merge -text
+*.mov binary -diff -merge -text
+*.avi binary -diff -merge -text
